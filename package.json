@@ -4,7 +4,7 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-        "start": "apidoc -i src/routes/ -o dist/docs/ & node dist/index.js & open http://localhost:3001",
+        "start": "apidoc -i src/routes/ -o dist/docs/ & node dist/index.js",
         "test": "jest --coverage",
         "watch": "jest --coverage --watchAll",
         "build": "gulp build",
